@@ -37,7 +37,7 @@ class Stack
     {
         if(this.first == null)
         {
-            throw new Error("Kundovina je prazdna");
+            throw new Error("Řada je prazdna");
         }
         let value = this.first.value;
         this.first = this.first.next;
@@ -48,7 +48,7 @@ class Stack
     {
         if(this.size == 0)
         {
-            throw new Error("Kundovina je prazdna");
+            throw new Error("Řada je prazdna");
         }
         return this.first.value;
     }
